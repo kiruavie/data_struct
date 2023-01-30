@@ -1,0 +1,25 @@
+ALGORITHM Tableau
+VAR
+    tab1, tab2, list_el: array_of integer
+
+BEGIN
+    tab1 := [11, 23, 44, 12, 90, 20]
+    tab2 := [17, 23, 14, 29, 36, 60]
+    el := 
+   
+
+  FOR i FROM 1 TO tab1 STEP 1  DO
+
+    IF (tab1[i] <> tab2[i]) THEN
+        list_el.add(i)
+        write(list_el)
+    ELSE
+        write("ont la meme valeur")
+    END_IF
+  END_FOR   
+
+  IF (tab1[i] <> tab2[i]) THEN
+    sumTab := tab1[i] + tab2[i]
+    write(sumTab)
+  END_IF
+END
